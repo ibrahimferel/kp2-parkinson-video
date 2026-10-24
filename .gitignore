@@ -1,0 +1,21 @@
+config/paths.local.yaml
+results/*/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# --- KP-2: data pasien dan turunannya TIDAK PERNAH di-commit ---
+*.npz
+*.mp4
+*.avi
+*.mov
+*.zip
+hasil/
+log/
+fitur_li_v2/
+pose_grid32/
+keypoints_roi/
+resampled_32hz/
+fold_*.json
+.ipynb_checkpoints/

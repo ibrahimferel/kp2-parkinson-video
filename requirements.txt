@@ -1,0 +1,17 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.2
+pyyaml>=6.0
+pytest>=7.0
+
+# --- tambahan KP-2 (metode skeleton dari video) ---
+torch>=2.0            # ST-GCN (di Colab sudah terpasang; di CI memakai build CPU)
+xgboost>=2.0          # Li dkk. (2022); device=cuda bila GPU tersedia
+mediapipe>=0.10       # BlazePose, tahap 1 (ekstraksi pose)
+opencv-python-headless>=4.8
+matplotlib>=3.6
+tqdm>=4.64
+tabulate>=0.9         # report.table / keluaran_w4.py
+requests>=2.28        # unduh Figshare
